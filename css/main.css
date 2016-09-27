@@ -1,0 +1,83 @@
+
+/*body*/
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/*header*/
+ul {
+	margin-left: 70%;
+}
+li {
+	display: inline-block;
+	margin: 10% 5%;
+}
+a {
+	text-decoration: none;
+	color: #6D6D6D;
+}
+ 
+
+
+/*section row*/
+section {
+	background-color: #6D6D6D;
+	padding: 5%;
+}
+/*mitad isquierda titulo y parrafo*/
+.col-8 {
+	color: white;
+}
+h1 {
+	font-size: 35px;
+	margin-bottom: 2%;
+}
+/*mitad derecha formulario*/
+.formulario {
+	background-color: #888888;
+	border-radius: 3%;
+	padding: 10%;
+}
+h3 {
+	text-align: center;
+	color: white;
+}
+input,button {
+	width: 100%;
+	padding: 3%;
+	margin: 2%;
+}
+button {
+	background-color: #54A3F0;
+	color: white;
+	border: none;
+}
+ 
+
+
+
+
+@media (max-width: 800px){
+
+	ul {
+		margin-left: 20%;
+	}
+	li {
+		margin: 2% 1%;
+	}
+	.col-8 {
+		width: 100%;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	p {
+		width: 45%;
+		margin-bottom: 5%;
+	}
+ 
+	.formulario {
+		width: 150%;
+	}
+}
